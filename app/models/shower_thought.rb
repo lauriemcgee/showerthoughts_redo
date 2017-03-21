@@ -1,0 +1,2 @@
+class ShowerThought < ApplicationRecord
+end

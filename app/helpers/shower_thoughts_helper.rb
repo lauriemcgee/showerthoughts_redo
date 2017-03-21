@@ -1,0 +1,2 @@
+module ShowerThoughtsHelper
+end
