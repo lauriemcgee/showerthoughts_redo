@@ -1,0 +1,8 @@
+<h4> Edit r/Showerthought </h4>
+<%= form_tag "/showerthoughts/#{@showerthought.id}", method: :patch do %>
+  <div class="form-group">
+    <%= label_tag :thought %>
+    <%= text_field_tag :thought, @showerthought.thought, class: 'form-control' %>
+    </div>
+  <%= submit_tag "Edit r/showerthought", class: "btn btn-primary" %>
+<% end %>

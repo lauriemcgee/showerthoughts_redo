@@ -1,0 +1,8 @@
+<h1>New r/showerthought</h1>
+<%= form_tag '/showerthoughts', method: :post do %>
+  <div class="form-group">
+    <%= label_tag :caption %>
+    <%= text_field_tag :caption, "", class: 'form-control' %>
+</div>
+  <%= submit_tag "Add showerthought", class: "btn btn-primary" %>
+<% end %>
